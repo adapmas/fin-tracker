@@ -9,7 +9,6 @@ import {
   List,
   ListItem,
   ListItemText,
-  ListItemSecondaryAction,
   IconButton,
   Box,
   Alert,
@@ -123,7 +122,7 @@ export default function Home() {
 
       {overBudget && (
         <Alert severity="warning" sx={{ mb: 2 }}>
-          ⚠️ You're over your monthly budget!
+          ⚠️ You are over your monthly budget!
         </Alert>
       )}
 
